@@ -1,0 +1,276 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* header */
+.header {
+  padding: 7.3rem 0;
+}
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.logo-link {
+  margin-right: 8rem;
+}
+.logo-link__img {
+}
+.sitenav {
+  margin-right: auto;
+}
+.sitenav__site {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4rem;
+}
+.sitenav__list {
+}
+.sitenav__link {
+  color: #ffffff;
+}
+.header__btn {
+  border: 2px solid #ffffff;
+}
+
+/* main */
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.hero-section {
+  background: url("../imeges/bacc-logo/Group11.svg"),
+    url("../imeges/bacc-logo/Group22.svg");
+  background-repeat: no-repeat;
+  background-position: left top 15%, right 40rem bottom;
+  padding-top: 5.6rem;
+  padding-bottom: 25rem;
+  background-color: initial;
+}
+.hero-section__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.hero-section_titel {
+  font-weight: 700;
+  font-size: 10rem;
+  line-height: 1;
+}
+.span-titel {
+  color: #f67e7e;
+}
+.hero-section__paragriph {
+  width: 445px;
+}
+.hero-section_line {
+  margin-bottom: 7.9rem;
+  width: 5rem;
+  height: 4px;
+  background-color: #79c8c7;
+  border: 0;
+}
+.hero-section__description {
+  line-height: 1.56;
+  font-size: 1.8rem;
+}
+/* build-section */
+.build-section {
+  background: #012f34;
+  background-image: url("../imeges/bacc-logo/Group33.svg");
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.build-section__container {
+}
+.build-section__line {
+  border: 0;
+  width: 5rem;
+  height: 4px;
+  background-color: #f67e7e;
+  margin-bottom: 5.4rem;
+}
+.build-section__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 13.2rem;
+}
+.build-section__titel {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1;
+}
+.build-section__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.build-section__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 23px;
+}
+.build-section__item:not(:last-child) {
+  margin-bottom: 3.2rem;
+}
+.build-section__img {
+  width: 72px;
+  height: 72px;
+}
+.build-section__item_div {
+  width: 44.5rem;
+}
+.build-section__item_titel {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.56;
+  color: #f67e7e;
+}
+/* deliver-section */
+.deliver-section {
+  padding-top: 14rem;
+  padding-bottom: 15.1rem;
+  background: url("../imeges/bacc-logo/reviews-bg-left44.svg"),
+    url("../imeges/bacc-logo/reviews-bg-right55.svg");
+    background-position:left top,right bottom ;
+    background-repeat: no-repeat;
+}
+.deliver-section__container {
+  text-align: center;
+}
+.deliver-section_titel {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1;
+  margin-bottom: 9.2rem;
+}
+.deliver-section__titel_span-titel {
+  color: #79c8c7;
+}
+.deliver-section__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.deliver-section__item {
+  width: 35rem;
+}
+.deliver-section__item_paragriph {
+  margin-bottom: 2.4rem;
+}
+.deliver-section__item_titel {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #79c8c7;
+}
+.deliver-sectiopn__span {
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.38;
+  font-style: italic;
+}
+.deliver-section__img {
+  margin-top: 3.2rem;
+  margin-left: 15rem;
+}
+/* ready-section */
+.ready-section {
+  background:url("../imeges/bacc-logo/Group66.svg");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-color: #f67e7e;
+  padding: 7.6rem 0;
+}
+.ready-section__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 26rem;
+}
+.ready-section_titel {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1;
+  color: #012f34;
+}
+.ready-section__btn {
+  color: #012f34;
+  border: 2px solid #012f34;
+}
+
+/* footer */
+.footer {
+  background: #002529;
+}
+.footer__container {
+  padding: 4.8rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer-home__img {
+  margin-bottom: 2.5rem;
+}
+.footer-home__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4rem;
+}
+.footer-home {
+}
+.footer-home__item {
+  color: #ffffff;
+  font-size: 1.8rem;
+  line-height: 1.36;
+}
+.footer-line__paragriph {
+  color: #ffffff;
+  opacity: 0.6;
+}
+.footer-div {
+}
+.footer-div__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 5.1rem;
+  padding-left: 14rem;
+}
+
+.footer-div__paragriph {
+  color: #ffffff;
+  opacity: 0.6;
+}
