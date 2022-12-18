@@ -1,0 +1,174 @@
+/* header */
+.header {
+  padding: 7.3rem 0;
+}
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.logo-link {
+  margin-right: 8rem;
+}
+.logo-link__img {
+}
+.sitenav {
+  margin-right: auto;
+}
+.sitenav__site {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4rem;
+}
+
+.sitenav__link {
+  color: #ffffff;
+}
+.header__btn {
+  border: 2px solid #ffffff;
+}
+/* main */
+.main {
+  background: url("../imeges/bacc-logo/Group2page-22.svg"),
+    url("../imeges/bacc-logo/Group3-PAGE.svg");
+  background-position: left top 20%,right bottom;
+  background-repeat: no-repeat;
+  flex-grow: 1;
+}
+.main__container {
+  display: flex;
+  justify-content: center;
+  padding: 11.4rem 0;
+}
+.contact-div {
+  width: 54rem;
+}
+.contact-div__titel {
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 1.56;
+  margin-bottom: 1.6rem;
+}
+.contact-div__span {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  color: #f67e7e;
+}
+.contact-div__list {
+  margin-top: 1.6rem;
+}
+.contact-div__item {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+.contact-div__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+.contact-div__img {
+}
+.contact-div__paragriph {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.56;
+}
+.john-div {
+  width: 54rem;
+}
+.john-div__paragriph {
+  margin-left: 2rem;
+  margin-bottom: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -0.115385px;
+}
+.john-div__line {
+  margin-bottom: 2.4rem;
+  border: none;
+  height: 1px;
+  background: #ffffff;
+}
+.john-div__apples-line {
+  background-color: #79c8c7;
+}
+.john-div__email {
+  color: #f67e7e;
+  opacity: 0.6;
+}
+.john-div__line-email {
+  background-color: #f67e7e;
+  margin-bottom: 8px;
+}
+.john-div__paragriph-email {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 13px;
+  color: #f67e7e;
+  margin-bottom: 1.7rem;
+  margin-left: 2rem;
+}
+.john-div__paragriph-name {
+  opacity: 0.6;
+}
+.john-div__paragriph-title {
+  opacity: 0.6;
+}
+.john-div__paragriph-message {
+  opacity: 0.6;
+  margin-bottom: 5.8rem;
+}
+.john-div__link {
+  background: #ffffff;
+  color: #004047;
+}
+/* footer */
+.footer {
+  background: #002529;
+}
+.footer__container {
+  padding: 4.8rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.footer-home__img {
+  margin-bottom: 2.5rem;
+}
+.footer-home__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4rem;
+}
+
+.footer-home__item {
+  color: #ffffff;
+  font-size: 1.8rem;
+  line-height: 1.36;
+}
+.footer-line__paragriph {
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.footer-div__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 5.1rem;
+  padding-left: 15rem;
+}
+.footer-div__paragriph {
+  color: #ffffff;
+  opacity: 0.6;
+}
