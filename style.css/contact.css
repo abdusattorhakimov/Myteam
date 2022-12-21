@@ -35,7 +35,7 @@
 .main {
   background: url("../imeges/bacc-logo/Group2page-22.svg"),
     url("../imeges/bacc-logo/Group3-PAGE.svg");
-  background-position: left top 20%,right bottom;
+  background-position: left top 20%, right bottom;
   background-repeat: no-repeat;
   flex-grow: 1;
 }
@@ -77,55 +77,39 @@
   font-size: 1.8rem;
   line-height: 1.56;
 }
-.john-div {
+/* form */
+form {
   width: 54rem;
+  display: flex;
+  flex-direction: column;
 }
-.john-div__paragriph {
-  margin-left: 2rem;
-  margin-bottom: 1.6rem;
-  font-weight: 600;
-  letter-spacing: -0.115385px;
-}
-.john-div__line {
+input {
   margin-bottom: 2.4rem;
+  padding-bottom: 1.6rem;
+  padding-left: 1.5rem;
   border: none;
-  height: 1px;
-  background: #ffffff;
+  outline: none;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  background: #014e56;
 }
-.john-div__apples-line {
-  background-color: #79c8c7;
-}
-.john-div__email {
-  color: #f67e7e;
+::placeholder {
+  letter-spacing: -0.115385px;
+  color: #ffffff;
   opacity: 0.6;
 }
-.john-div__line-email {
-  background-color: #f67e7e;
-  margin-bottom: 8px;
+.messeage-input {
+  padding-bottom: 6.2rem;
 }
-.john-div__paragriph-email {
-  font-weight: 700;
-  font-style: italic;
-  font-size: 1rem;
-  line-height: 13px;
-  color: #f67e7e;
-  margin-bottom: 1.7rem;
-  margin-left: 2rem;
+.input-btn{
+  width: 25%;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.56;
+ background: #ffffff;
+ color: #002529;
 }
-.john-div__paragriph-name {
-  opacity: 0.6;
-}
-.john-div__paragriph-title {
-  opacity: 0.6;
-}
-.john-div__paragriph-message {
-  opacity: 0.6;
-  margin-bottom: 5.8rem;
-}
-.john-div__link {
-  background: #ffffff;
-  color: #004047;
-}
+
 /* footer */
 .footer {
   background: #002529;
